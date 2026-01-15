@@ -30,3 +30,5 @@ src/app/
 │  │  ├─ dashboard-component.ts
 ├─ [services/](https://github.com/GiorgiBegii/homeworkAssignment_Lesson_05/tree/main/src/app/services)
 │  ├─ counter-service.ts
+
+

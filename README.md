@@ -15,22 +15,22 @@ service in appropriate day of week
 
 
 src/app/<br/>
-├─ analytics/ (https://github.com/GiorgiBegii/homeworkAssignment_Lesson_05/tree/main/src/app/analytics)
-│  ├─ analytics-service.ts
-│  ├─ analytics.factory.ts
-│  ├─ analytics.token.ts
-│  ├─ weekend-analytics-service.ts
-├─ components/ (https://github.com/GiorgiBegii/homeworkAssignment_Lesson_05/tree/main/src/app/components)
-│  ├─ counter-component/ (https://github.com/GiorgiBegii/homeworkAssignment_Lesson_05/tree/main/src/app/components/counter-component)
-│  │  ├─ counter-component.html
-│  │  ├─ counter-component.scss
-│  │  ├─ counter-component.ts
-│  ├─ dashboard-component/ (https://github.com/GiorgiBegii/homeworkAssignment_Lesson_05/tree/main/src/app/components/dashboard-component)
-│  │  ├─ dashboard-component.html
-│  │  ├─ dashboard-component.scss
-│  │  ├─ dashboard-component.ts
-├─ services/ (https://github.com/GiorgiBegii/homeworkAssignment_Lesson_05/tree/main/src/app/services)
-│  ├─ counter-service.ts
+├─ analytics/ (https://github.com/GiorgiBegii/homeworkAssignment_Lesson_05/tree/main/src/app/analytics)<br/>
+│  ├─ analytics-service.ts<br/>
+│  ├─ analytics.factory.ts<br/>
+│  ├─ analytics.token.ts<br/>
+│  ├─ weekend-analytics-service.ts<br/>
+├─ components/ (https://github.com/GiorgiBegii/homeworkAssignment_Lesson_05/tree/main/src/app/components)<br/>
+│  ├─ counter-component/ (https://github.com/GiorgiBegii/homeworkAssignment_Lesson_05/tree/main/src/app/components/counter-component)<br/>
+│  │  ├─ counter-component.html<br/>
+│  │  ├─ counter-component.scss<br/>
+│  │  ├─ counter-component.ts<br/>
+│  ├─ dashboard-component/ (https://github.com/GiorgiBegii/homeworkAssignment_Lesson_05/tree/main/src/app/components/dashboard-component)<br/>
+│  │  ├─ dashboard-component.html<br/>
+│  │  ├─ dashboard-component.scss<br/>
+│  │  ├─ dashboard-component.ts<br/>
+├─ services/ (https://github.com/GiorgiBegii/homeworkAssignment_Lesson_05/tree/main/src/app/services)<br/>
+│  ├─ counter-service.ts<br/>
 
 
 

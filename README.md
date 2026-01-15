@@ -14,7 +14,6 @@ service in appropriate day of week
 **Folder Structure:**
 
 src/app/
-
 ├─ [analytics/](https://github.com/GiorgiBegii/homeworkAssignment_Lesson_05/tree/main/src/app/analytics)
 │  ├─ analytics-service.ts
 │  ├─ analytics.factory.ts
@@ -31,4 +30,3 @@ src/app/
 │  │  ├─ dashboard-component.ts
 ├─ [services/](https://github.com/GiorgiBegii/homeworkAssignment_Lesson_05/tree/main/src/app/services)
 │  ├─ counter-service.ts
-

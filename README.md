@@ -1,59 +1,33 @@
-# HomeworkAssignmentLesson05
+# homeworkAssignment_Lesson_05 / [Live](https://homework-assignment-lesson-05.vercel.app/)
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.3.
+## Features:
 
-## Development server
+●  Create a simple counter service (use RxJS-store approach in this service, current number information, 
+increment and decrement methods). Provide it both for appConfig (globaly) and a component providers 
+(locally). Inject it twice with self and skipSelf decorators. Check the behavior of global and local instances when 
+interacting with them.
 
-To start a local development server, run:
+● Create two services: Analytics WeekendAnalytics. Both should have method trackAnalytics that are outputting 
+‘Analytics is tracked’ / ‘Analytics is tacked for weekend’ Create a useFactory provider that provides appropriate 
+service in appropriate day of week
 
-```bash
-ng serve
-```
+**Folder Structure:**
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+src/app/  
+├─ [analytics/](https://github.com/GiorgiBegii/homeworkAssignment_Lesson_05/tree/main/src/app/analytics)  
+│  ├─ analytics-service.ts
+│  ├─ analytics.factory.ts
+│  ├─ analytics.token.ts
+│  ├─ weekend-analytics-service.ts
+├─ [components/](https://github.com/GiorgiBegii/homeworkAssignment_Lesson_05/tree/main/src/app/components)  
+│  ├─ [counter-component/](https://github.com/GiorgiBegii/homeworkAssignment_Lesson_05/tree/main/src/app/components/counter-component)  
+│  │  ├─ counter-component.html  
+│  │  ├─ counter-component.scss  
+│  │  ├─ counter-component.ts  
+│  ├─ [dashboard-component/](https://github.com/GiorgiBegii/homeworkAssignment_Lesson_05/tree/main/src/app/components/dashboard-component)  
+│  │  ├─ dashboard-component.html  
+│  │  ├─ dashboard-component.scss  
+│  │  ├─ dashboard-component.ts  
+├─ [services/](https://github.com/GiorgiBegii/homeworkAssignment_Lesson_05/tree/main/src/app/services)  
+│  ├─ counter-service.ts  
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
